@@ -1,0 +1,293 @@
+{
+  "records": [
+    {
+      "datasetid": "kontaktadressen",
+      "recordid": "b2498c29584e665aeb34923ceae66b18c21e5f6b",
+      "fields": {
+        "land": "CH",
+        "didok": 5000,
+        "service": "Aufgabezeiten Fluggepäck nach Zürich Flughafen",
+        "lod": "http://lod.opentransportdata.swiss/didok/8505000",
+        "firma": "SBB AG",
+        "ort": "Luzern",
+        "adresse": "Bahnhofplatz",
+        "geopos": [
+          47.0501697679,
+          8.31017092011
+        ],
+        "plz": 6002,
+        "postfach": "Postfach",
+        "mail": "gepaeck.luzern@sbb.ch",
+        "stationsbezeichnung": "Luzern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.31017092011,
+          47.0501697679
+        ]
+      },
+      "record_timestamp": "2018-10-23T21:17:00+00:00"
+    },
+    {
+      "datasetid": "kontaktadressen",
+      "recordid": "60d202b330aa09aeeac88453e5f45cba34313d3a",
+      "fields": {
+        "land": "CH",
+        "didok": 5000,
+        "service": "Gepäck",
+        "lod": "http://lod.opentransportdata.swiss/didok/8505000",
+        "firma": "SBB AG",
+        "ort": "Luzern",
+        "adresse": "Bahnhofplatz",
+        "geopos": [
+          47.0501697679,
+          8.31017092011
+        ],
+        "plz": 6002,
+        "postfach": "Postfach",
+        "mail": "gepaeck.luzern@sbb.ch",
+        "stationsbezeichnung": "Luzern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.31017092011,
+          47.0501697679
+        ]
+      },
+      "record_timestamp": "2018-10-23T21:17:00+00:00"
+    },
+    {
+      "datasetid": "kontaktadressen",
+      "recordid": "01b63f0317acf50a8ec57737a6fa791d7d88ec6d",
+      "fields": {
+        "land": "CH",
+        "didok": 5000,
+        "service": "Gruppenreisen",
+        "lod": "http://lod.opentransportdata.swiss/didok/8505000",
+        "firma": "SBB AG",
+        "ort": "Luzern",
+        "adresse": "Bahnhofplatz",
+        "geopos": [
+          47.0501697679,
+          8.31017092011
+        ],
+        "plz": 6002,
+        "postfach": "Postfach",
+        "mail": "infopoint.luzern@sbb.ch",
+        "stationsbezeichnung": "Luzern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.31017092011,
+          47.0501697679
+        ]
+      },
+      "record_timestamp": "2018-10-23T21:17:00+00:00"
+    },
+    {
+      "datasetid": "kontaktadressen",
+      "recordid": "1d13c43359bab268fc012f182e8af801ab105cd3",
+      "fields": {
+        "land": "CH",
+        "didok": 5000,
+        "service": "Fundservice",
+        "lod": "http://lod.opentransportdata.swiss/didok/8505000",
+        "firma": "SBB AG",
+        "ort": "Luzern",
+        "adresse": "Bahnhofplatz",
+        "geopos": [
+          47.0501697679,
+          8.31017092011
+        ],
+        "plz": 6002,
+        "postfach": "Postfach",
+        "mail": "gepaeck.luzern@sbb.ch",
+        "stationsbezeichnung": "Luzern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.31017092011,
+          47.0501697679
+        ]
+      },
+      "record_timestamp": "2018-10-23T21:17:00+00:00"
+    },
+    {
+      "datasetid": "kontaktadressen",
+      "recordid": "5b5ef526557e81a3050b232e2d498d70fd026332",
+      "fields": {
+        "land": "CH",
+        "didok": 5000,
+        "service": "Billette, Abonnemente, Freizeitangebote",
+        "lod": "http://lod.opentransportdata.swiss/didok/8505000",
+        "firma": "SBB AG",
+        "ort": "Luzern",
+        "adresse": "Bahnhofplatz",
+        "geopos": [
+          47.0501697679,
+          8.31017092011
+        ],
+        "plz": 6002,
+        "postfach": "Postfach",
+        "mail": "luzern@sbb.ch",
+        "stationsbezeichnung": "Luzern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.31017092011,
+          47.0501697679
+        ]
+      },
+      "record_timestamp": "2018-10-23T21:17:00+00:00"
+    },
+    {
+      "datasetid": "kontaktadressen",
+      "recordid": "447b962961372346383207513745bdd735d10291",
+      "fields": {
+        "land": "CH",
+        "didok": 5000,
+        "service": "Gepäckaufbewahrung",
+        "lod": "http://lod.opentransportdata.swiss/didok/8505000",
+        "firma": "SBB AG",
+        "ort": "Luzern",
+        "adresse": "Bahnhofplatz",
+        "geopos": [
+          47.0501697679,
+          8.31017092011
+        ],
+        "plz": 6002,
+        "postfach": "Postfach",
+        "mail": "gepaeck.luzern@sbb.ch",
+        "stationsbezeichnung": "Luzern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.31017092011,
+          47.0501697679
+        ]
+      },
+      "record_timestamp": "2018-10-23T21:17:00+00:00"
+    },
+    {
+      "datasetid": "kontaktadressen",
+      "recordid": "c9138a1af259972f71448466095473f5b3522352",
+      "fields": {
+        "land": "CH",
+        "didok": 5000,
+        "service": "Kundendienst",
+        "lod": "http://lod.opentransportdata.swiss/didok/8505000",
+        "firma": "SBB AG",
+        "ort": "Luzern",
+        "adresse": "Bahnhofplatz",
+        "geopos": [
+          47.0501697679,
+          8.31017092011
+        ],
+        "plz": 6002,
+        "postfach": "Postfach",
+        "stationsbezeichnung": "Luzern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.31017092011,
+          47.0501697679
+        ]
+      },
+      "record_timestamp": "2018-10-23T21:17:00+00:00"
+    },
+    {
+      "datasetid": "kontaktadressen",
+      "recordid": "1825b38d5158aa7268e41d90023fb386fc6c9212",
+      "fields": {
+        "land": "CH",
+        "didok": 5000,
+        "service": "Velovermietung",
+        "lod": "http://lod.opentransportdata.swiss/didok/8505000",
+        "firma": "SBB AG",
+        "ort": "Luzern",
+        "adresse": "Bahnhofplatz",
+        "geopos": [
+          47.0501697679,
+          8.31017092011
+        ],
+        "plz": 6002,
+        "postfach": "Postfach",
+        "mail": "gepaeck.luzern@sbb.ch",
+        "stationsbezeichnung": "Luzern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.31017092011,
+          47.0501697679
+        ]
+      },
+      "record_timestamp": "2018-10-23T21:17:00+00:00"
+    },
+    {
+      "datasetid": "kontaktadressen",
+      "recordid": "08d49d0bffb167e8b690049dfd29fac20e1c5938",
+      "fields": {
+        "land": "CH",
+        "didok": 5000,
+        "service": "DHL / PickPost",
+        "lod": "http://lod.opentransportdata.swiss/didok/8505000",
+        "firma": "SBB AG",
+        "ort": "Luzern",
+        "adresse": "Bahnhofplatz",
+        "geopos": [
+          47.0501697679,
+          8.31017092011
+        ],
+        "plz": 6002,
+        "postfach": "Postfach",
+        "mail": "gepaeck.luzern@sbb.ch",
+        "stationsbezeichnung": "Luzern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.31017092011,
+          47.0501697679
+        ]
+      },
+      "record_timestamp": "2018-10-23T21:17:00+00:00"
+    },
+    {
+      "datasetid": "kontaktadressen",
+      "recordid": "27ed275065c11b37295ce499b32d470f9401e7b7",
+      "fields": {
+        "land": "CH",
+        "didok": 5000,
+        "service": "Geldwechsel",
+        "lod": "http://lod.opentransportdata.swiss/didok/8505000",
+        "firma": "SBB AG",
+        "ort": "Luzern",
+        "adresse": "Bahnhofplatz",
+        "geopos": [
+          47.0501697679,
+          8.31017092011
+        ],
+        "plz": 6002,
+        "postfach": "Postfach",
+        "mail": "geldwechsel.luzern@sbb.ch",
+        "stationsbezeichnung": "Luzern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.31017092011,
+          47.0501697679
+        ]
+      },
+      "record_timestamp": "2018-10-23T21:17:00+00:00"
+    }
+  ]
+}

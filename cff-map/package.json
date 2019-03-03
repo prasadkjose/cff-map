@@ -1,0 +1,115 @@
+{
+  "name": "cff-map",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --watch",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint --no-fix",
+    "test": "cross-env BABEL_ENV=test jest  ",
+    "test:watch": "yarn test --watch --fix",
+    "commit": "git-cz"
+  },
+  "dependencies": {
+    "cliapp": "^1.1.4",
+    "lodash": "^4.17.11",
+    "normalize.css": "^8.0.0",
+    "querystring": "^0.2.0",
+    "vue": "^2.5.22",
+    "vue-meta": "^1.5.8",
+    "vue2-google-maps": "^0.10.5",
+    "vuex": "^3.1.0",
+    "whatwg-fetch": "^3.0.0",
+    "yarn": "^1.13.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.1",
+    "@types/jest": "^23.3.2",
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "commitizen": "^3.0.0",
+    "cross-env": "^5.2.0",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.2.1",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.1.0",
+    "husky": "^1.2.0",
+    "jest": "^24.1.0",
+    "jest-vue": "^0.8.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "jest": {
+    "rootDir": "src",
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      "^.+\\.js$": "../node_modules/babel-jest",
+      ".*\\.(vue)$": "../node_modules/jest-vue"
+    },
+    "verbose": true,
+    "testURL": "http://localhost/",
+    "coverageDirectory": "./coverage/",
+    "testPathIgnorePatterns": [
+      "node_modules/"
+    ],
+    "testMatch": [
+      "**/__tests__/**/*.spec.js?(x)",
+      "**/?(*.)(spec|test).js?(x)"
+    ],
+    "collectCoverage": true,
+    "coverageReporters": [
+      "text"
+    ],
+    "collectCoverageFrom": [
+      "<rootDir>/**/*.js",
+      "!<rootDir>/main.js",
+      "!<rootDir>/api/*.js",
+      "!<rootDir>/constants/*.js",
+      "!<rootDir>/store/*.js",
+      "!<rootDir>/**/_tests_/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 95,
+        "lines": 95,
+        "statements": 95
+      }
+    }
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cff-map/node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint && yarn test",
+      "pre-push": "yarn build"
+    }
+  }
+}
